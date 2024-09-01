@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+#create-event { 
+position: absolute;
+width: 100%;
+top: 3%;
+left: 61%;
+z-index: 1;
+}
+.calendar {
+  margin-top: 20px;
+  margin-left: 20px;
+  background: rgb(229, 230, 231);
+}
+
+.rbc-calendar {
+  width: 93%;
+  height: 90%;
+  position: absolute;
+}
+
+/* Month View CSS */
+.rbc-date-cell {
+  text-align: left;
+  position: relative;
+  left: 0.3%;
+}
+
+.rbc-current-time-indicator {
+  background-color: rgb(220, 56, 72);
+}
+
+.rbc-month-view .rbc-day-bg.rbc-today {
+  background-color: rgb(248, 247, 247);
+  width: 30%;
+  border: 1px solid rgb(208, 59, 59);
+}
+.rbc-off-range-bg {
+  background: white;
+}
+
+/* Day view CSS */
+.rbc-time-view .rbc-day-slot.rbc-time-column.rbc-now.rbc-today {
+  background-color: rgb(248, 247, 247);
+}
+.rbc-time-view .rbc-day-bg.rbc-today {
+  background-color: rgb(248, 247, 247);
+}
+.rbc-time-view .rbc-row.rbc-time-header-cell {
+  min-height: 40px;
+}
+
+/* Week View CSS  */
+.rbc-row-content .rbc-row {
+  min-height: 0;
+}
+.rbc-header.rbc-today {
+  background-color: rgb(238, 238, 238);
+}
+.rbc-time-header.rbc-overflowing {
+  background-color: rgb(238, 238, 238);
+}
+.rbc-time-view .rbc-day-slot.rbc-time-column.rbc-now.rbc-today {
+  background-color: rgb(255, 255, 255);
+}
+.rbc-now.rbc-current-time-indicator {
+  background-color: rgb(220, 53, 69);
+  top: 43.6111%;
+}
+/* Year view CSS */
+.year {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
+}
+
+.month {
+  margin: 5px 0px 15px 5px;
+}
+
+.month-name {
+  color: rgb(40, 36, 36);
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 19px;
+  text-align: left;
+}
+
+.day {
+  display: inline-block;
+  width: 14%;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  background-color: white;
+}
+
+.date {
+  width: 14%;
+  height: 30px;
+  background: white;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.year .date.next-month > div,
+.year .date.prev-month > div {
+  visibility: hidden;
+}
+
+.date.in-month:hover {
+  cursor: pointer;
+  background: rgba(204, 80, 80, 0.63);
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+}
+
+.today > div {
+  height: 28px;
+  width: 28px;
+  margin: auto;
+  font-weight: bolder;
+  font-size: 1.1em;
+  background: rgba(204, 80, 80, 0.63);
+  border-radius: 50%;
+}
+
+.date.prev-month,
+.date.next-month {
+  color: grey;
+}

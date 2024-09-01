@@ -1,0 +1,28 @@
+.not-found {
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.err0 {
+  /* position: absolute; */
+  font-size: 16rem;
+  height: 10rem;
+  /* left: 30%;
+  top: 30%; */
+  color: #000000;
+}
+
+.msg {
+  color: #383838;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  /* position: absolute;
+  left: 14%;
+  top: 65%; */
+}

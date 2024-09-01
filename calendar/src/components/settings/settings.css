@@ -1,0 +1,41 @@
+.container-settings {
+  margin-top: 5%;
+}
+
+.container-settings * {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 50px;
+
+  color: #000000;
+}
+
+.container-settings .header-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.container-settings .settings-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 40px;
+}
+
+.container-settings .settings-list button {
+  background: #e64242;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 0px 16px;
+  color: #ffffff;
+  margin-top: 10px;
+}

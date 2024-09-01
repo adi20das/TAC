@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+.login-page form {
+  width: 75%;
+  margin: auto;
+}
+
+.login .wrap_login {
+  /* width:100%;  */
+  margin-top: 120px;
+}
+.login .header_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 67px;
+  text-align: center;
+  margin-top: 10%;
+  color: #000000;
+}
+
+.header_text span {
+  font-size: 1em;
+}
+
+.login .error_msg {
+  margin-top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #fc2727;
+}
+.login .input_box {
+  margin-top: 20px;
+}
+
+.login .label {
+  /* margin-top:15px; */
+  text-align: right;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.login .input input {
+  width: 100%;
+  border: none;
+  height: 29px;
+  background: #d9d9d9;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  outline: none;
+}
+.login .forgot_password {
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: right;
+  text-decoration-line: underline;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.login .btn_container {
+  margin-top: 40px;
+}
+.loign .btn_and_option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  flex-direction: column;
+}
+.login .login_btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  background: #d9d9d9;
+  color: #000000;
+  cursor: pointer;
+  padding: 0px 18px;
+  margin-bottom: 10px;
+}
+
+.login .signup_link_container {
+  margin-top: 15px;
+}
+.login .is_sign_up {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 20px;
+  color: #000000;
+}
+.login_btn input[type="submit"] {
+  outline: none;
+  background: transparent;
+  border: none;
+}
+
+.login .sign_up_link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login .error_msg {
+  text-align: center;
+  height: 50px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90% !important;
+  }
+
+  .empty {
+    display: none;
+  }
+
+  .label {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .input {
+    height: 21px;
+    padding-left: 0px !important;
+  }
+
+  .input input {
+    height: 21px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .login .error_msg {
+    font-size: 11px;
+    line-height: 32px;
+  }
+  .login .header_text {
+    font-size: 42px;
+    line-height: 67px;
+  }
+  .login .login-btn {
+    font-size: 24px;
+    line-height: 44px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .login .label {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .login .input {
+    height: 21px;
+    padding-left: 0px !important;
+  }
+
+  .login .input input {
+    height: 21px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .signup-btn,
+  .login-btn {
+    background: #d9d9d9;
+    padding: 4px 3%;
+  }
+  .login .error_msg {
+    font-size: 14px;
+    line-height: 30px;
+
+    text-align: center;
+  }
+  .login .header_text {
+    font-size: 42px;
+    line-height: 67px;
+  }
+  .login .login-btn {
+    font-size: 24px;
+    line-height: 44px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* .container {
+        width: 90% !important;
+    } */
+  .login .label {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .login .input {
+    height: 21px;
+    padding-left: 0px !important;
+  }
+
+  .login .input input {
+    height: 21px;
+    font-size: 14px;
+    line-height: 12px;
+  }
+  .signup-btn,
+  .login-btn {
+    background: #d9d9d9;
+    padding: 4px 8%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* .container {
+        width: 90% !important;
+    } */
+  .login .label {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .login .input {
+    height: 21px;
+    padding-left: 0px !important;
+  }
+
+  .login .input input {
+    height: 21px;
+    font-size: 14px;
+    line-height: 12px;
+  }
+  .signup-btn,
+  .login-btn {
+    background: #d9d9d9;
+    padding: 4px 8%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* .container {
+        width: 90% !important;
+    } */
+  .login .label {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .empty {
+    display: flex;
+  }
+
+  .login .input {
+    height: 21px;
+    padding-left: 0px !important;
+  }
+
+  .login .input input {
+    height: 21px;
+    font-size: 14px;
+    line-height: 12px;
+  }
+  .signup-btn,
+  .login-btn {
+    background: #d9d9d9;
+    padding: 4px 11%;
+  }
+}

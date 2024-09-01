@@ -1,0 +1,90 @@
+.hamburger {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+.create-title {
+  margin-top: 15px;
+  text-indent: 200px;
+}
+
+form {
+  width: 1000px;
+  text-align: 150px;
+  margin-left: 185px;
+}
+
+.event-title {
+  margin: 15px;
+  width: 700px;
+  background-color: #d9d9d9;
+}
+
+.event-location {
+  margin: 15px;
+  background-color: #d9d9d9;
+  width: 700px;
+}
+
+.start-label {
+  margin-left: 15px;
+  margin-right: 200px;
+}
+
+.event-start {
+  margin: 15px;
+  margin-right: 10px;
+  background-color: #d9d9d9;
+}
+
+.event-end {
+  margin: 15px;
+  margin-right: 10px;
+  background-color: #d9d9d9;
+}
+
+.all-day {
+  margin: 10px;
+}
+
+.reminder-time {
+  margin-left: 15px;
+}
+
+.event-reminder {
+  margin: 15px;
+  background-color: #d9d9d9;
+}
+
+.event-description {
+  width: 700px;
+  height: 250px;
+  margin: 15px;
+  background-color: #d9d9d9;
+}
+
+.button {
+  width: 158px;
+  height: 55px;
+  border-radius: 7px;
+  padding-right: 30px;
+  background-color: #d9d9d9;
+}
+
+.button svg {
+  text-align: left;
+  margin-right: 10px;
+}
+
+.event-save {
+  margin: 15px;
+}
+
+.event-cancel {
+  margin: 15px;
+}
+
+.event-delete {
+  margin: 15px;
+}

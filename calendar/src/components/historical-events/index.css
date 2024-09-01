@@ -1,0 +1,120 @@
+#historical-event-cards {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: minmax(350px, auto);
+  grid-gap: 20px;
+  padding: 10px;
+  margin-left: 2%;
+  width: 95%;
+}
+
+#historical-events-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90vw;
+  margin-top: 1%;
+}
+
+#historical-events-header h1 {
+  font-size: 2.5rem;
+  width: 80%;
+  margin-left: 18%;
+  text-align: center;
+}
+
+#randomize-btn {
+  background-color: #409663;
+  border-radius: 10px;
+  padding: 0.25em 1em;
+  font-size: 1.3rem;
+  height: 100%;
+  color: white;
+}
+
+#randomize-btn:disabled {
+  background-color: #808080;
+}
+
+#historical-event-cards .event-card {
+  position: relative;
+  padding: 2.5%;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+
+#historical-event-cards img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1%;
+}
+
+#historical-event-cards .title {
+  font-size: 1.2rem;
+  margin-right: 75px;
+  font-weight: 600;
+}
+
+#historical-event-cards .event-publish-date {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#historical-event-cards .event-description {
+  background: none;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+#historical-event-cards .event-url {
+  color: black;
+}
+
+#historical-event-cards .save-btn {
+  position: absolute;
+  top: 10px;
+  right: 7px;
+  background-color: #409663;
+  color: white;
+  padding: 0.125em 0.5em;
+  border-radius: 10px;
+}
+
+#historical-event-cards .save-btn:disabled {
+  background-color: #808080;
+}
+
+#historical-event-cards .interested-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #409663;
+  border-radius: 10px;
+}
+
+#historical-event-cards .not-interested-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #ffc107;
+  border-radius: 10px;
+}
+
+#save-event-form,
+#save-event-form * {
+  margin: 0;
+}
+
+#save-event-form label {
+  margin-right: 10px;
+}
+
+#save-event-form select {
+  width: 26%;
+}
+
+#save-event-error {
+  color: #dc3545;
+}

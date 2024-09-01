@@ -1,0 +1,342 @@
+.cus-container {
+  padding-top: 50px;
+  background: #e5e6e7;
+  width: 85%;
+  margin: auto;
+  margin-left: 15%;
+  margin-top: 7%;
+}
+
+.singup .input-box {
+  margin-top: 30px;
+}
+
+.singup .error_msg {
+  margin-top: 0px !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right !important;
+
+  color: #ff0d0d;
+}
+
+.singup .header_text {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+  color: #000000;
+}
+
+.singup .label {
+  /* font-size: 16px;
+    line-height: 25px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 27px;
+  text-align: right;
+  padding: 0px !important;
+  color: #000000;
+  height: 20px;
+}
+
+.input {
+  height: 29px;
+  padding-left: 0px !important;
+}
+
+.input input {
+  width: 100%;
+  height: 29px;
+  background: #d9d9d9;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  outline: none;
+  color: #000000;
+  border: none;
+}
+
+.singup .password {
+  position: relative;
+
+  /* height: 200px; */
+}
+
+.singup .password .password_hint {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* display: flex;
+    flex-direction: column; */
+  color: #ff0d0d;
+  position: absolute;
+  right: 0;
+  text-align: left;
+}
+
+.singup .password .password_hint ul {
+  list-style-type: disc;
+
+  text-align: left;
+}
+.singup .password .password_hint ul li {
+  text-align: left;
+  margin-top: 8px;
+}
+
+.singup .button-box {
+  margin-top: 35px;
+  display: flex;
+  font-family: "Inter";
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  padding: 0px !important;
+}
+
+/* .signup-btn, .login-btn {
+    background: #D9D9D9;
+      padding: 4px 8%;
+} */
+.singup .button-box input[type="submit"] {
+  outline: none;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.progress {
+  background: #f3f3f3;
+  margin-top: 5px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  height: 12px;
+}
+
+.empty {
+  display: none;
+}
+.strength-checker {
+  position: relative;
+}
+.password-strength-value {
+  position: absolute;
+  right: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+  top: 19px;
+}
+
+@media screen and (max-width: 576px) {
+  .singup .container {
+    width: 90% !important;
+  }
+
+  .singup .empty {
+    display: none;
+  }
+
+  .singup .label {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .singup .input {
+    height: 21px;
+    padding-left: 0px !important;
+  }
+
+  .singup .input input {
+    height: 21px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .singup .password_hint {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cus-container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .singup .empty {
+    display: none;
+  }
+
+  .singup .label {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .singup .input {
+    height: 21px;
+    padding-left: 0px !important;
+  }
+
+  .singup .input input {
+    height: 21px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .singup .password {
+    /* width:100% !important; */
+    margin-top: 20px;
+    background: red;
+  }
+
+  .password .password_hint {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    color: #ff0d0d;
+    position: absolute;
+    left: 0;
+    margin-top: 13px;
+    flex-direction: row;
+  }
+
+  .password .password_hint ul li {
+    text-align: left;
+    float: left;
+    font-size: 14px;
+  }
+  .singup .password_container .input-box {
+    margin-top: 0px !important;
+  }
+  .confirm-password {
+    margin-top: 96px;
+  }
+  .password_container {
+    margin-top: 56px;
+  }
+  /* .signup-btn, .login-btn {
+        background: #D9D9D9;
+          padding: 4px 3%;
+    } */
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .cus-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .singup .label {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .singup .input {
+    height: 21px;
+    padding-left: 0px !important;
+  }
+
+  .singup .input input {
+    height: 21px;
+    font-size: 14px;
+    line-height: 12px;
+  }
+  .password_container .input-box {
+    margin-top: 3px !important;
+  }
+  .confirm-password {
+    margin-top: 46px !important;
+  }
+  /* .signup-btn, .login-btn {
+        background: #D9D9D9;
+          padding: 4px 8%;
+    } */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 85% !important;
+  }
+  .singup .label {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .singup .input {
+    height: 21px;
+    padding-left: 0px !important;
+  }
+
+  .singup .input input {
+    height: 21px;
+    font-size: 14px;
+    line-height: 12px;
+  }
+  .confirm-password {
+    margin-top: 46px;
+  }
+  .signup .signup-btn,
+  .login-btn {
+    background: #d9d9d9;
+    padding: 4px 8%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* .container {
+        width: 90% !important;
+    } */
+  .singup .label {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .empty {
+    display: flex;
+  }
+
+  .singup .input {
+    height: 21px;
+    padding-left: 0px !important;
+  }
+
+  .singup .input input {
+    height: 21px;
+    font-size: 14px;
+    line-height: 12px;
+  }
+  .confirm-password {
+    margin-top: 46px;
+  }
+
+  /* .signup-btn, .login-btn {
+        background: #D9D9D9;
+          padding: 4px 11%;
+    } */
+}
+
+.singup .login-btn {
+  border: none;
+  font-weight: bold;
+}

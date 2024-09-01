@@ -1,0 +1,113 @@
+html,
+body {
+  margin: 0;
+}
+
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: white;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 24px;
+  top: 20px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #333438;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #dfe4e4;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #a0a2ad;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+}
+
+.bm-menu-wrap {
+  top: 0;
+}
+
+.contact-us {
+  position: absolute;
+  bottom: 20px;
+  left: 120px;
+}
+
+.settings {
+  position: absolute;
+  bottom: 20px;
+}
+
+.settings-logo {
+  width: 30px;
+  height: 25px;
+}
+
+.logout {
+  position: absolute;
+  bottom: 20px;
+  left: 70px;
+  background: transparent;
+  border: none;
+}
+
+.logout img {
+  position: relative;
+  width: 30px;
+  height: 25px;
+}

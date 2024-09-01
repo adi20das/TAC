@@ -1,0 +1,22 @@
+.change-api {
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.change-api button {
+  margin-right: 15px;
+  font-size: 25px;
+  padding: 0;
+}
+
+.change-api label {
+  margin-left: 10px;
+}
+
+.change-api .subscription-api {
+  margin-top: 15px;
+}
